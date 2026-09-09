@@ -1,6 +1,6 @@
 # WiFi Watcher
 
-WiFi Watcher is a small Python utility that helps detect when neighborhood power is restored after an outage.
+WiFi Watcher is a small Python utility that runs on a MacBook Air to help detect when neighborhood power is restored after an outage by monitoring available WiFi networks.
 
 I built this for a practical home power scenario: when utility power fails, I use a transfer switch (generator interlock kit) to safely run my home from a generator. While using a generator interlock kit, it can be hard to know exactly when utility power is back. This script monitors nearby Wi-Fi networks and alerts me when networks reappear, which is a strong signal that grid power has returned in the area.
 
